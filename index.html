@@ -25,10 +25,10 @@
 <!-- Replace the code below with the web chat code snippet from your watsonx assistant -->
 <script>
   window.watsonAssistantChatOptions = {
-    integrationID: "570bd973-a3f6-4fb5-af50-680db926b694", // The ID of this integration.
+    integrationID: "35722b25-103f-4402-8deb-f0fccdd5c30d", // The ID of this integration.
     region: "us-south", // The region your integration is hosted in.
-    serviceInstanceID: "97d1caf7-fd58-4c87-9cd0-5ec6613cb7c4", // The ID of your service instance.
-    onLoad: function(instance) { instance.render(); }
+    serviceInstanceID: "1e951bdc-1dc1-4674-aef4-708694029a75", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
   };
   setTimeout(function(){
     const t=document.createElement('script');
